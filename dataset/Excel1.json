@@ -10,8 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"folderPath": "Hdo",
-				"container": "ca-document"
+				"fileName": {
+					"value": "*.xlsx",
+					"type": "Expression"
+				},
+				"container": "hdo-container"
 			},
 			"firstRowAsHeader": true
 		},
