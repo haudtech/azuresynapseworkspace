@@ -2,13 +2,12 @@
 	"name": "Excel1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "hdoToPhamSA01",
+			"referenceName": "hdoAzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "VSA mapping template",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "Hdo",
