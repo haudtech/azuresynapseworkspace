@@ -19,7 +19,7 @@
 						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
+							"fileListPath": "hdo-container/blobs",
 							"enablePartitionDiscovery": false
 						}
 					},
