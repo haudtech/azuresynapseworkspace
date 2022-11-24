@@ -10,7 +10,7 @@
 			"subjectBeginsWith": "",
 			"scope": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/hdoresourcegroup01/providers/Microsoft.EventGrid/topics/hdocustomeventgridtopic01",
 			"events": [
-				"Blob Created"
+				"Microsoft.Storage.BlobCreated"
 			]
 		}
 	}
