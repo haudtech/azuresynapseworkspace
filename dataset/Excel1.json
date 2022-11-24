@@ -11,10 +11,7 @@
 			"sheetName": "VSA mapping template",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "*.xlsx",
-					"type": "Expression"
-				},
+				"folderPath": "test01",
 				"container": "hdo-container"
 			},
 			"firstRowAsHeader": true
