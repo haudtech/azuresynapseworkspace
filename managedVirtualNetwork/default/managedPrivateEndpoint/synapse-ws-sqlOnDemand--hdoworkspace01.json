@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--hdoworkspace01",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/hdoresourcegroup01/providers/Microsoft.Synapse/workspaces/hdoworkspace01",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"hdoworkspace01-ondemand.80f40de2-3fc0-438f-b21d-655ca1adf448.sql.azuresynapse.net"
+		]
+	}
+}

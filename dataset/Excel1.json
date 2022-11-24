@@ -1,0 +1,75 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdoToPhamSA01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "VSA mapping template",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Hdo",
+				"container": "ca-document"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "HG01/772125002UOP1/61089999300",
+				"type": "String"
+			},
+			{
+				"name": " Amort Exp-Patents/TM",
+				"type": "String"
+			},
+			{
+				"name": "161",
+				"type": "String"
+			},
+			{
+				"name": "Amortization expense intangible assets",
+				"type": "String"
+			},
+			{
+				"name": "12",
+				"type": "String"
+			},
+			{
+				"name": "Depreciation and amortisation expense",
+				"type": "String"
+			},
+			{
+				"name": "7",
+				"type": "String"
+			},
+			{
+				"name": "Other Income and Expenses",
+				"type": "String"
+			},
+			{
+				"name": "4",
+				"type": "String"
+			},
+			{
+				"name": "Profit (loss)",
+				"type": "String"
+			},
+			{
+				"name": "Class of Transactions",
+				"type": "String"
+			},
+			{
+				"name": "51",
+				"type": "String"
+			},
+			{
+				"name": "Custom Amortization of intangible assets BS",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

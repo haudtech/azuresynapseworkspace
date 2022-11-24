@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--hdoworkspace01-thinguyendls",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/CA-ThiNguyen-ReourceGroup/providers/Microsoft.Storage/storageAccounts/thinguyendls",
+		"groupId": "dfs"
+	}
+}

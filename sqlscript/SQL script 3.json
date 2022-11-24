@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE mapping (\n\t[C1] nvarchar(4000),\n\t[C2] nvarchar(4000),\n\t[C3] nvarchar(4000),\n\t[C4] nvarchar(4000),\n\t[C5] nvarchar(4000),\n\t[C6] nvarchar(4000),\n\t[C7] nvarchar(4000),\n\t[C8] nvarchar(4000),\n\t[C9] nvarchar(4000),\n\t[C10] nvarchar(4000),\n\t[C11] nvarchar(4000),\n\t[C12] nvarchar(4000),\n\t[C13] nvarchar(4000)\n\t)\n    GO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "hdodedicatedsqlpool",
+				"poolName": "hdodedicatedsqlpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

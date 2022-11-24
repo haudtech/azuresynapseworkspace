@@ -1,0 +1,73 @@
+{
+	"name": "DedicatedSQLPool01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdodedicatedsqlpool01",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Gold"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "C1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C3",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C4",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C5",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C6",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C7",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C8",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C9",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C10",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C11",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C12",
+				"type": "nvarchar"
+			},
+			{
+				"name": "C13",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "mapping"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

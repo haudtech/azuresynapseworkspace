@@ -1,0 +1,24 @@
+{
+	"name": "ParquetFolder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdoworkspace01-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Silver"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "ParquetFiles",
+				"fileSystem": "documents"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

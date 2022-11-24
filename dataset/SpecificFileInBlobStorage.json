@@ -1,0 +1,63 @@
+{
+	"name": "SpecificFileInBlobStorage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdoToPhamSA01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "VSA mapping template",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "TBTemplate-hdo.xlsx",
+				"folderPath": "Hdo",
+				"container": "ca-document"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

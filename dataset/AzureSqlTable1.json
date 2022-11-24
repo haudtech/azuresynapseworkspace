@@ -1,0 +1,70 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdoAzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "_col0_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col1_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col2_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col3_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col4_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col5_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col6_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col7_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col8_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col9_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col10_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col11_",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_col12_",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "mapping"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
