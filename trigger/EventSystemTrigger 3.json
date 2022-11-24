@@ -13,9 +13,9 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/hdo-container/blobs",
+			"blobPathBeginsWith": "/hdo-container/blobs/",
 			"blobPathEndsWith": "xlsx",
-			"ignoreEmptyBlobs": true,
+			"ignoreEmptyBlobs": false,
 			"scope": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/hdoresourcegroup01/providers/Microsoft.Storage/storageAccounts/hdostorageaccount01",
 			"events": [
 				"Microsoft.Storage.BlobCreated",
