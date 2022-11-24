@@ -8,6 +8,9 @@
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
+		"hdoAzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"hdoAzureSqlDatabase_connectionString": {
 			"value": ""
 		},
@@ -25,6 +28,9 @@
 		},
 		"hdoworkspace01-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://thinguyendls.dfs.core.windows.net"
+		},
+		"EventSystemTrigger 3_properties_typeProperties_scope": {
+			"value": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/hdoresourcegroup01/providers/Microsoft.Storage/storageAccounts/hdostorageaccount01"
 		}
 	}
 }
