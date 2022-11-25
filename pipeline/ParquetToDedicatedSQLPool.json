@@ -1,5 +1,5 @@
 {
-	"name": "PoCPipeline_copy1",
+	"name": "ParquetToDedicatedSQLPool",
 	"properties": {
 		"activities": [
 			{
