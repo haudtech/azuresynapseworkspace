@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "ParquetFolder",
+						"referenceName": "Parquet1",
 						"type": "DatasetReference"
 					},
 					"name": "source1"
@@ -23,7 +23,22 @@
 			],
 			"transformations": [],
 			"scriptLines": [
-				"source(allowSchemaDrift: true,",
+				"source(output(",
+				"          Detail as string,",
+				"          Name as string,",
+				"          NoteLineCode as string,",
+				"          NoteLine as string,",
+				"          FSLineCode as string,",
+				"          FSLine as string,",
+				"          FSSubClassesCode as string,",
+				"          FSSubClasses as string,",
+				"          ClassCode as string,",
+				"          Classes as string,",
+				"          AccountType as string,",
+				"          ABCOTDCode as string,",
+				"          ABCOTD as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false,",
 				"     format: 'parquet') ~> source1",

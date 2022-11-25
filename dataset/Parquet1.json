@@ -1,0 +1,74 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "hdoBlobStorage01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "hdo-test.parquet",
+				"folderPath": "blobs",
+				"container": "hdo-container"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "Detail",
+				"type": "UTF8"
+			},
+			{
+				"name": "Name",
+				"type": "UTF8"
+			},
+			{
+				"name": "NoteLineCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "NoteLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "FSLineCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "FSLine",
+				"type": "UTF8"
+			},
+			{
+				"name": "FSSubClassesCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "FSSubClasses",
+				"type": "UTF8"
+			},
+			{
+				"name": "ClassCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "Classes",
+				"type": "UTF8"
+			},
+			{
+				"name": "AccountType",
+				"type": "UTF8"
+			},
+			{
+				"name": "ABCOTDCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "ABCOTD",
+				"type": "UTF8"
+			}
+		]
+	}
+}
