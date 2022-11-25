@@ -1,5 +1,5 @@
 {
-	"name": "PoCPipeline_copy2",
+	"name": "ParquetToAzureSQLDatabase",
 	"properties": {
 		"activities": [
 			{
