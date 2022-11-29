@@ -10,11 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "hdo-test.parquet",
 				"folderPath": "blobs",
 				"container": "hdo-container"
 			},
-			"compressionCodec": "snappy"
+			"compressionCodec": "none"
 		},
 		"schema": [
 			{
