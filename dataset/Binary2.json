@@ -10,12 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "data_00000000-0000-0000-0000-000000000000_01250aea-00fd-42cb-bd7b-c346b57c62c1.zip",
 				"folderPath": "StageFolder",
 				"fileSystem": "documents"
-			},
-			"compression": {
-				"type": "ZipDeflate",
-				"level": "Fastest"
 			}
 		}
 	}
