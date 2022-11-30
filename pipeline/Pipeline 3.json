@@ -43,7 +43,17 @@
 				"inputs": [
 					{
 						"referenceName": "Parquet1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"sourceFile": {
+								"value": "@pipeline().TriggerType",
+								"type": "Expression"
+							},
+							"sourceFolder": {
+								"value": "@pipeline().TriggerName",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
