@@ -2,12 +2,19 @@
 	"name": "Trigger 3",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
-		"pipelines": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Pipeline 4",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/documents/blobs/ParquetFiles",
-			"blobPathEndsWith": ".parquet",
+			"blobPathBeginsWith": "/documents/blobs/",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/75237d16-daee-436b-93e5-bb7f713e1c37/resourceGroups/CA-ThiNguyen-ReourceGroup/providers/Microsoft.Storage/storageAccounts/thinguyendls",
 			"events": [
