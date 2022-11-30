@@ -5,6 +5,11 @@
 			"referenceName": "hdoBlobStorage01",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"sourceFile": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
